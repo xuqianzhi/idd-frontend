@@ -23,6 +23,7 @@ export default class Plot extends Component {
     componentDidMount() {
         this.fetchHumidityData()
         this.fetchTemperatureData();
+        console.log('github test')
     }
 
     fetchHumidityData() {
